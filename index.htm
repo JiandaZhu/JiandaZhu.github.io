@@ -12,7 +12,7 @@
 		a						{color: #800000;}
 		body 				{
 								background-color: #ffffff;
-								font-family: Verdana, Helvetica, Arial, sans-serif;
+								font-family: Palatino;
 								margin-left: 10%;
 								margin-right: 10%;
 								}
@@ -32,11 +32,16 @@
 		ul						{
 								margin-top: 5px;
 								}
-		.abstract			{
-								font-size: 16px;
-								line-height: 20px;
+		.abstract				{
+								font-size: 18px;
+								line-height: 22px;
+								width: 90%;
+								border-width: 1px;
+  								border-style: solid;
+  								border-color: lightgray;
+  								padding: 10px;
 								}
-		.paper_title		{
+		.paper_title			{
 								font-size: 20px;
 								line-height: 24px;
 								}
@@ -53,21 +58,29 @@
 		.pdf					{
 								font-size: 20px;
 								}
-		.button 			{
+		.button 				{
+								border: none;
+								background-color: #ffffff;
+								font-size: 20px;
+								color: #800000;
+								padding-top: 8px;
+								padding-bottom: 15px;
+								}
+/*		.button 			{
 								border-radius: 1px;
 								background-color: #ffffff;
 								border: none;
     							outline: none;
 								color: #800000;
 								text-align: left;
-								font-size: 20px;
+								font-size: 18px;
 								padding-top: 10px;
     							padding-bottom: 15px;
     							padding-left: 10px;
 								transition: all 0.5s;
 								cursor: pointer;
 								margin: 1px;
-								}
+								}*/
 	</style>
 	<meta name="keywords" content="Jian-Da Zhu, jdzhu, JDZhu, 朱建達">
 	<meta name="description" content="Jian-Da Zhu, Department of Economics, Fu Jen Catholic University">
@@ -79,7 +92,7 @@
 <table style="width: 100%">
 	<tr>
 		<td rowspan="3" style="width: 30%; text-align: center">
-			<img src="image/jdzhu_2016_2.jpg" alt="Profile Photo" style="width: 250px">
+			<img src="image/jdzhu_2023_1.jpg" alt="Profile Photo" style="width: 250px">
 		</td>
 		<td colspan="3" style="width: 70%; text-align: center">
 			<a name="Home"> </a>
@@ -128,7 +141,25 @@
 <div id="Publications">
 <h2> Publications </h2>
 <ul>
-		<li class="paper_title">"The Effect of Risk Information on Housing
+	<li class="paper_title">"Market Response to Typhoons: the Role of Information and Expectation," <span class="coauthor">with Chin-Hsien Yu and Bruce A. McCarl</span>, <span class="journal">Southern Economic Journal</span>, 89(2), 495-521, 2022.</li>
+	<button class="button" data-toggle="collapse" data-target="#Typhoons"><b>[Abstract]</b></button>
+	<a class="pdf" href="doc/Typhoon.pdf"><b>[pdf]</b></a> 
+	<div id="Typhoons" class="collapse container">
+	<p class="abstract">
+Damages from tropical storms are enormous and predicted to increase with climate change. This study uses high-frequency data to investigate typhoons’ effects through information channels on Taiwan’s wholesale vegetable market during the 1996-2014 period. We first identify effects on prices and quantities during storms’ striking periods and further separate price effects into those due, respectively, to supply and demand shifts. The results show that for typhoons that make landfall, prices rise significantly during the striking period, and the decomposition results indicate that most of the price effects during periods with warnings but no landfall are due to demand shifts, which supports evidence of precautionary purchases by consumers. However, during the landfall period, the price effect is mainly driven by decreased supply. In addition, we find that typhoon effects differ between specific vegetables, and the magnitude of precautionary purchase is correlated with expected damage to those vegetables. Consumers also make more precautionary purchases when they face higher-intensity typhoons or learn typhoons will make landfall within 24 hours, and such prior information related to intensity or landfall urgency can also amplify early harvest effects by farmers.
+	</p>
+	</div>
+
+	<li class="paper_title">"Choices Behind the Veil of Ignorance in Formosan Macaques", <span class="coauthor">with Yi-Ta Lu, Wei-hsiang Hwang, Yi-Tsung Hsieh, Tsung-Yu Ho, Chun-I Yeh, and Chen-Ying Huang</span>, <span class="journal">PNAS Nexus</span>, 1(4), pgac188, 2022.</li>
+	<button class="button" data-toggle="collapse" data-target="#Monkey"><b>[Abstract]</b></button>
+	<a class="pdf" href="doc/Monkey.pdf"><b>[pdf]</b></a>
+	<div id="Monkey" class="collapse container">
+	<p class="abstract">
+An ongoing debate regarding the evolution of morality is whether other species show precursory moral behavior. The veil of ignorance (VOI) paradigm is often used to elicit human moral judgment but has never been tested in other primates. We study the division of resources behind the VOI in Formosan macaques. Monkeys choose the equal division more often than what pure selfishness would imply, suggesting a degree of impartiality. To better understand this impartiality, we measure a monkey’s reactions to two directions of inequity: one regarding inequity to its advantage and the other to its disadvantage. We find that disadvantageous inequity aversion correlates with the degree of impartiality behind the VOI. Therefore, seemingly impartial behavior could result from a primitive negative reaction to being disadvantaged. This suggests a mechanism to explain a tendency toward impartiality.
+	</p>
+	</div>
+
+	<li class="paper_title">"The Effect of Risk Information on Housing
 Prices in Taiwan," <span class="coauthor">with Tzu-Chang Forrest Cheng and Tai-Chi Wang</span>, <span class="journal">Academia Economic Papers</span>, 50(1), 41-73, 2022.</li>
 	<button class="button" data-toggle="collapse" data-target="#Soil"><b>[Abstract]</b></button>
 	<a class="pdf" href="doc/Soil_Liquefaction.pdf"><b>[pdf]</b></a>	
@@ -138,14 +169,6 @@ This research uses a difference-in-differences framework to investigate the effe
 	</p>
 	</div>
 
-	<li class="paper_title">"Market Response to Typhoons: the Role of Information and Expectation," <span class="coauthor">with Chin-Hsien Yu and Bruce A. McCarl</span>, <span class="journal">Southern Economic Journal</span>, forthcoming, 2022.</li>
-	<button class="button" data-toggle="collapse" data-target="#Typhoons"><b>[Abstract]</b></button>
-	<a class="pdf" href="doc/Typhoon.pdf"><b>[pdf]</b></a> 
-	<div id="Typhoons" class="collapse container">
-	<p class="abstract">
-Damages from tropical storms are enormous and predicted to increase with climate change. This study uses high-frequency data to investigate typhoons’ effects through information channels on Taiwan’s wholesale vegetable market during the 1996-2014 period. We first identify effects on prices and quantities during storms’ striking periods and further separate price effects into those due, respectively, to supply and demand shifts. The results show that for typhoons that make landfall, prices rise significantly during the striking period, and the decomposition results indicate that most of the price effects during periods with warnings but no landfall are due to demand shifts, which supports evidence of precautionary purchases by consumers. However, during the landfall period, the price effect is mainly driven by decreased supply. In addition, we find that typhoon effects differ between specific vegetables, and the magnitude of precautionary purchase is correlated with expected damage to those vegetables. Consumers also make more precautionary purchases when they face higher-intensity typhoons or learn typhoons will make landfall within 24 hours, and such prior information related to intensity or landfall urgency can also amplify early harvest effects by farmers.
-	</p>
-	</div>
 
 </ul>
 <table width="100%">
@@ -163,21 +186,21 @@ Damages from tropical storms are enormous and predicted to increase with climate
 <div id="WorkingPapers">
 <h2> Working Papers </h2>
 <ul>
-	<li class="paper_title">"Choices Behind the Veil of Ignorance in Formosan Macaques", <span class="coauthor">with Yi-Ta Lu, Wei-hsiang Hwang, Yi-Tsung Hsieh, Tsung-Yu Ho, Chun-I Yeh, and Chen-Ying Huang</span>, June 2022.</li>
-	<button class="button" data-toggle="collapse" data-target="#Monkey"><b>[Abstract]</b></button>
-	<a class="pdf" href="doc/Monkey.pdf"><b>[pdf]</b></a>
-	<div id="Monkey" class="collapse container">
+	<li class="paper_title">"Incentivizing Demand Response Using Auctions: Evidence from Steel Producers in Taiwan", <span class="coauthor">with Chia-Wen Chen</span>, April 2023.</li>
+	<button class="button" data-toggle="collapse" data-target="#DR"><b>[Abstract]</b></button>
+	<a class="pdf" href="doc/DR.pdf"><b>[pdf]</b></a> 
+	<div id="DR" class="collapse container">
 	<p class="abstract">
-An ongoing debate regarding the evolution of morality is whether other species show precursory moral behavior. The veil of ignorance (VOI) paradigm is often used to elicit human moral judgment but has never been tested in other primates. We study the division of resources behind the VOI in Formosan macaques. Monkeys choose the equal division more often than what pure selfishness would imply, suggesting a degree of impartiality. To better understand this impartiality, we measure a monkey’s reactions to two directions of inequity: one regarding inequity to its advantage and the other to its disadvantage. We find that disadvantageous inequity aversion correlates with the degree of impartiality behind the VOI. Therefore, seemingly impartial behavior could result from a primitive negative reaction to being disadvantaged. This suggests a mechanism to explain a tendency toward impartiality.
+This paper examines the effects of incentivizing industrial users to reduce their electricity consumption using demand response auctions, in which the opportunity costs of electricity consumption depend on auction outcomes. Using data on bids, auction outcomes, and hourly electricity consumption from steel producers in Taiwan, this paper shows that failing to consider the selection effect resulting from firms' strategic bidding behavior can lead to an over-estimation of electricity reduction by at least 51%. We show that the selection effect works mainly through a free-rider effect, in which firms bid low to win auctions when they anticipate low electricity consumption.
 	</p>
 	</div>
 
-	<li class="paper_title">"Windfall Gains and Stock Market Participation: Evidence from Shopping Receipt Lottery", <span class="coauthor">with Tzu-Chang Forrest Cheng, Hsuan-Hua Huang, Tse-Chun Lin, and Tzu-Ting Yang</span>, June 2022.</li>
+	<li class="paper_title">"Windfall Gains and Stock Market Participation: Evidence from Shopping Receipt Lottery", <span class="coauthor">with Tzu-Chang Forrest Cheng, Hsuan-Hua Huang, Tse-Chun Lin, and Tzu-Ting Yang</span>, January 2023.</li>
 	<button class="button" data-toggle="collapse" data-target="#Lottery"><b>[Abstract]</b></button>
 	<a class="pdf" href="doc/Lottery.pdf"><b>[pdf]</b></a> 
 	<div id="Lottery" class="collapse container">
 	<p class="abstract">
-We utilize shopping receipt lotteries that almost every shopper participates in and complete administrative data in Taiwan to examine the effect of cash windfalls on stock market participation. The advantage of using receipt lottery winning is its immunity from the sampling biases that may limit the external validity and policy implications as the citizens in Taiwan receive one receipt lottery ticket per transaction. We find that each million TWD (around 35,000 USD) windfall gain from winning the receipt lottery increases the stock market participation probability by around 0.76 percentage points, around 4.34% of the average level. Windfall gain also increases the number and value of shares the receipt lottery winner hold in the subsequent year. The effect is stronger among winners that are younger, without kids, and with lower financial wealth. Our results suggest that financial constraints may still be a potential barrier to stock market participation.
+We utilize shopping receipt lotteries that almost every shopper participates in and complete administrative data in Taiwan to examine the effect of cash windfalls on stock market participation. We find that each million TWD (around 35,000 USD) windfall gain from winning receipt lotteries increases the stock market participation probability by roughly 0.76%, which is translated into 4.34% of the average level. Windfall gain also increases the number and value of shares winners hold next year. The effect is stronger among winners that are younger, without kids, and with lower wealth, suggesting that financial constraints may still be potential barriers to stock market participation. Finally, we also estimate the windfall effect by utilizing the typical lottery data. Our results suggest that the effect of per million TWD windfall gain from typical lotteries on the stock market participation probability is 22.36% lower than that from shopping receipt lotteries.
 	</p>
 	</div>
 
@@ -236,7 +259,8 @@ This paper investigates how a gasoline station chooses the location for entry, e
 <ul>
 <!--	<li class="paper_title">University-Firm Deals and Collaborations: A Matching Approach, <span class="coauthor">with Hsini Huang</span></li>
 -->
-	<li class="paper_title">"Estimating the Effect of Winning Demand Response Auctions on Firms' Electricity Consumption", <span class="coauthor">with Chia-Wen Chen.</span></li>
+	<li class="paper_title">"Effects of the Tax Reform on the Housing Market: Evidence from the House and Land Transactions Income Tax in 2016
+", <span class="coauthor">with Tzu-Ting Yang.</span></li>
 	<br>
 
 	<li class="paper_title">"Strategic Bidding Behavior in Demand Response Auctions", <span class="coauthor">with Chia-Wen Chen, Ling-Chieh Kung, and Yun-Tung Kuo.</span></li>
@@ -263,15 +287,17 @@ This paper investigates how a gasoline station chooses the location for entry, e
 <h2> Teaching </h2>
 			<br>
 <ul>
-			<li class="paper_title">經濟學</li>
+			<li class="paper_title">Economics (Undergraduate)</li>
 <!--			<a class="pdf" href="doc/Syllabus_Stat.pdf"><b>[Syllabus]</b></a>-->
 <!--			<a class="pdf" target="_blank" href="Stat2.htm"><b>[Link]</b></a>-->
 			<br>
-			<br>			
-			<li class="paper_title">Industrial Organization</li>
+			<li class="paper_title">Econometrics (Undergraduate)</li>
+<!--			<a class="pdf" href="doc/Syllabus_Stat.pdf"><b>[Syllabus]</b></a>-->
+<!--			<a class="pdf" target="_blank" href="Stat2.htm"><b>[Link]</b></a>-->
+			<br>
+			<li class="paper_title">Industrial Organization (Graduate)</li>
 <!--			<a class="pdf" href="doc/Syllabus_2017_IO.pdf"><b>[Syllabus]</b></a>-->
 <!--			<a class="pdf" target="_blank" href="IntroductionIO.htm"><b>[Link]</b></a>-->
-			<br>
 			<br>
 <!--			<li class="paper_title">Econometric Theory I (Part Two), <span class="coauthor">2015, <b>2016</b></li>
 			<a class="pdf" href="doc/Syllabus_Ecmt.pdf"><b>[Syllabus]</b></a>
@@ -298,7 +324,7 @@ This paper investigates how a gasoline station chooses the location for entry, e
 	<tr>
 		<td style="vertical-align: center; text-align: left">
 			<font size="4">
-				Last updated in August, 2022
+				Last updated in May, 2023
 			</font>
 		</td>
 	</tr>
